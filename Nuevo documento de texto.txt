@@ -1,0 +1,25 @@
+ git init ---------------Iniciar el git
+
+git add . ------------------------agregar todos los cambios
+
+git status -s -------------------estado de los cambios
+
+git commit -m "mensaje" ----------- hacer el envio 
+
+ git remote add origin https://github.com/Leicin/tutorial-git.git ------------clonar con el repositorio
+
+ git branch -M main  -------------------rama en la que se esta desarrollando
+
+ git push -u origin main  --------------------subir cambios con la rama o solamente git push
+
+ git pull ----------------------actualizar cambios que se encuentran en el repositorio remoto
+
+ git log --oneline ----------------muestra todos los commit que se han realizado
+
+ git branch nombreRama ----------------------crear una rama nueva
+
+git checkout nombreRama -----------------------Cambiar a la rama que se creo
+
+ git merge nombreRama --------------------Unir las ramas 
+
+ git branch -d nombreRama -------------------Eliminar rama parrafo
